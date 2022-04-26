@@ -2,6 +2,8 @@ package br.edu.ifpb.foodstore.service.payment;
 
 import br.edu.ifpb.foodstore.service.log.LogHandler;
 import br.edu.ifpb.foodstore.service.log.LogService;
+import br.edu.ifpb.foodstore.service.payment.strategy.Payment;
+import br.edu.ifpb.foodstore.service.payment.strategy.PaymentFactory;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
